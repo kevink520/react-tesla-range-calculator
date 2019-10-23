@@ -11,7 +11,7 @@ const TeslaStats = ({ carstats }) => {
   ));
 
   return (
-    <div className="tesla-stats">
+    <div className="tesla-stats tesla-stats-animation">
       <ul>
         {listItems}
       </ul>

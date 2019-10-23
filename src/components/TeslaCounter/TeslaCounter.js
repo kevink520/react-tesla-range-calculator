@@ -13,12 +13,18 @@ const TeslaCounter = ({ initValues, currentValue, increment, decrement }) => (
         </p>
         <div className="tesla-counter__controls">
           <button
-            onClick={e => increment(e, initValues.title)}
+            onClick={e => {
+              e.preventDefault();
+              increment(currentValue);
+            }}
             disabled={currentValue >= initValues.max}
           >
           </button>
           <button
-            onClick={e => decrement(e, initValues.title)}
+            onClick={e => {
+              e.preventDefault();
+              decrement(currentValue);
+            }}
             disabled={currentValue <= initValues.min}
           >
           </button>

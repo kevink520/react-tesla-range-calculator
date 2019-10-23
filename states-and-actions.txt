@@ -1,0 +1,20 @@
+TeslaCar Container :
+	state : wheels
+	action : N/A
+TeslaStats Container :
+	state : carstats(array)
+	action : N/A
+	
+TeslaSpeedCounter Container : 
+	state : config.speed
+	action : SPEED_UP, SPEED_DOWN
+TeslaTempCounter Container : 
+	state : config.temperature
+	action : TEMPERATURE_UP, TEMPERATURE_DOWN
+	
+TeslaClimate Container : 
+	state : config.climate
+	action : CHANGE_CLIMATE
+TeslaWheel Container : 
+	state : config.wheel
+	action : CHANGE_WHEEL

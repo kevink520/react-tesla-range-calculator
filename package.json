@@ -2,6 +2,9 @@
   "name": "react-tesla-range-calculator",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
@@ -11,8 +14,8 @@
     "redux": "^4.0.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node --openssl-legacy-provider ./node_modules/react-scripts/scripts/start.js",
+    "build": "node --openssl-legacy-provider ./node_modules/react-scripts/scripts/build.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

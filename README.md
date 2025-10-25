@@ -1,3 +1,3 @@
 ## A React.js app based on an educative.io course
 
-https://react-tesla-range-calculator.herokuapp.com/
+https://react-tesla-range-calculator.netlify.app/
